@@ -15,7 +15,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void changeImage(View view) {
+        if(toggle == 0) {
+            view.setBackgroundResource(R.drawable.dinosaur_medium);
+            toggle = 1;
+        } else {
+            try {
+                Thread.sleep(32);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 
+            view.setBackgroundResource(R.drawable.ankylo);
+            toggle = 0;
+        }
 
     }
 }
