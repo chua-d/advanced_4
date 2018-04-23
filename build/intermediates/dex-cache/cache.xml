@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.1.1_32de72e67231071a01aa74bf9a9e902d7bb9a371.jar" />
+    </item>
+    <item
+        jar="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_1cf609d75640081836d1c7d173a9b22ce10efd2e.jar" />
+    </item>
+    <item
+        jar="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_6d917145735f49a3777d8f034c28900dd1ca5d76.jar" />
+    </item>
+    <item
+        jar="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_7ff33250bacacb37dec5016e89731ede6cb87e99.jar" />
+    </item>
+    <item
+        jar="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_93e726d5f748ee0bb715003c4e3e6715bdcd736c.jar" />
+    </item>
+    <item
+        jar="/Users/danceciliochua/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_7e2be92e69417fa78eab2a57aef09714d332945c.jar" />
+    </item>
+    <item
+        jar="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.1.1_f1c485b2fe47627573fdf1cc7b17fe7218320c61.jar" />
+    </item>
+    <item
+        jar="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/danceciliochua/Documents/Advanced Android/Lesson4/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_518faff9da529a69a1ed8f4fd44c8ca075b1d8a9.jar" />
+    </item>
+
+</items>
