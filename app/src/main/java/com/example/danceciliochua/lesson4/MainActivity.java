@@ -5,11 +5,14 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
+
+    private int Toggle = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,5 +51,17 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void changeImage(View view) {
+        if(Toggle == 0) {
+            view.setBackgroundResource(R.drawable.dinosaur_large1);
+            Toggle = 1;
+        } else {
+            view.setBackgroundResource(R.drawable.dinosaur_large1);
+            Log.d("Background", "WebP");
+            Toggle = 0;
+        }
+
     }
 }
