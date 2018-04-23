@@ -19,6 +19,7 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -75,6 +76,14 @@ public class MainActivity extends AppCompatActivity {
 
         // If the network is active and the search field is not empty, start a FetchBook AsyncTask.
         if (networkInfo != null && networkInfo.isConnected() && queryString.length()!=0) {
+            new FetchBook(mTitleText, mAuthorText, mBookInput).execute(queryString);
+            SystemClock.sleep(3000);
+            new FetchBook(mTitleText, mAuthorText, mBookInput).execute(queryString);
+            SystemClock.sleep(3000);
+            new FetchBook(mTitleText, mAuthorText, mBookInput).execute(queryString);
+            SystemClock.sleep(3000);
+            new FetchBook(mTitleText, mAuthorText, mBookInput).execute(queryString);
+            SystemClock.sleep(3000);
             new FetchBook(mTitleText, mAuthorText, mBookInput).execute(queryString);
         }
         // Otherwise update the TextView to tell the user there is no connection or no search term.
